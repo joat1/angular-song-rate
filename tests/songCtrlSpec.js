@@ -17,7 +17,7 @@ describe("Song rate controller", function() {
     // Create Song controller and inject mocks
     angular.mock.inject(function($rootScope, $controller) {
       
-      service.get.andReturn([{
+      service.get.and.returnValue([{
         id: 1,
         artist: "Artist",
         title: "Title",
